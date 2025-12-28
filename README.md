@@ -24,10 +24,10 @@ The proposed system reduced founder bottlenecks, improved visibility into onboar
 ## Tools
 The following tools and technologies were used in this project:
 
-- ClickUp:	Central workflow engine and system of record
-- DMV Website:	Single intake point for volunteer applications
-- Calendly:	Embedded interview scheduling
-- Gmail / Calendar:	Consolidated communication and visibility
+- **ClickUp:**	Central workflow engine and system of record
+- **DMV Website:**	Single intake point for volunteer applications
+- **Calendly:**	Embedded interview scheduling
+- **Gmail / Calendar:**	Consolidated communication and visibility
 
 
 ## Organizational Context
