@@ -11,7 +11,7 @@
 - [Workflow Redesign](#workflow-redesign)
 - [Data Model and Workflow Logic](#data-model-and-workflow-logic)
 - [Projected Impact](#projected-impact)
-- [Implementation Status](implementation-status)
+- [Implementation Status](#implementation-status)
 - [Key Learnings](#key-learnings)
 - [Why This Case Study Matters](#why-this-case-study-matters)
 
