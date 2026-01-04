@@ -16,7 +16,7 @@
 
 
 ## Project Overview
-DMV Music Alliance relied on an informal, founder-managed onboarding process for new volunteers. The lack of standardized workflows and centralized data created delays, confusion, and unnecessary manual coordination. I redesigned the onboarding process as a structured, system-driven workflow, consolidating data capture, scheduling, task management, and follow-ups into a single operational pipeline.
+DMV Music Alliance relied on an informal, founder-managed onboarding process for new volunteers. The lack of standardized workflows and centralized data created delays, confusion, and unnecessary manual coordination. I redesigned the onboarding process as a workflow automation–ready system, consolidating data capture, scheduling, task management, and follow-ups into a single operational pipeline orchestrated through ClickUp and Zapier.
 
 The proposed system reduced founder bottlenecks, improved visibility into onboarding status, and created a repeatable onboarding experience designed to scale with minimal overhead. While the system was fully designed and documented, full implementation was ultimately paused due to leadership indecision rather than technical constraints.
 
@@ -25,6 +25,7 @@ The proposed system reduced founder bottlenecks, improved visibility into onboar
 The following tools and technologies were used in this project:
 
 - **ClickUp:**	Central workflow engine and system of record
+- **Zapier:** Automation orchestration layer connecting intake, scheduling, tasks, and notifications
 - **DMV Website:**	Single intake point for volunteer applications
 - **Calendly:**	Embedded interview scheduling
 - **Gmail / Calendar:**	Consolidated communication and visibility
@@ -95,10 +96,11 @@ Minimize handoffs by consolidating data capture, scheduling, and communication i
 - Volunteer applies directly through the DMV Music Alliance website
 - Application form captures all required onboarding data in one submission
 - Calendly is embedded at the end of the sign-up flow, allowing immediate interview scheduling
-- A single consolidated email is automatically sent containing:
-  - Volunteer application details
-  - Scheduled interview date and time
-  - Clear next-step expectations
+- Form submission triggered a Zapier workflow that created a centralized onboarding record and sent a single consolidated confirmation email
+  - The email is sent containing:
+    - Volunteer application details
+    - Scheduled interview date and time
+    - Clear next-step expectations
 #### Impact:
 Eliminates duplicate sign-ups and fragmented email threads while creating one unified volunteer record.
 
@@ -149,7 +151,7 @@ Each onboarding record captured standardized fields:
 - Status
 - Key dates (application, interview, activation)
 
-This enabled ClickUp to function as a single source of truth, replacing informal tracking across email and calendars.
+The standardized fields enabled reliable automation triggers, status-based workflows, and downstream task orchestration without manual reconciliation. This enabled ClickUp to function as a single source of truth, replacing informal tracking across email and calendars. 
 
 ## Projected Impact
 | Metric                    | Before   | After (Projected)     |
@@ -166,7 +168,7 @@ This reflected a common constraint in volunteer-led organizations, where decisio
 
 ## Key Learnings
 - Operational clarity reduces friction more effectively than additional effort
-- Automation is most impactful when paired with clear ownership and status definitions
+- Automation is most impactful when paired with clear ownership, explicit statuses, and well-defined triggers
 - Organizational readiness is as critical as technical feasibility
 
 ## Why This Case Study Matters
