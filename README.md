@@ -3,6 +3,7 @@
 ## Table of Contents
 
 - [Project Overview](#project-overview)
+- [My Role](#my-role)
 - [Tools](#tools)
 - [Organizational Context](#organizational-context)
 - [Problem Diagnosis](#problem-diagnosis)
@@ -16,10 +17,16 @@
 
 
 ## Project Overview
-DMV Music Alliance relied on an informal, founder-managed onboarding process for new volunteers. The lack of standardized workflows and centralized data created delays, confusion, and unnecessary manual coordination. I redesigned the onboarding process as a workflow automation–ready system, consolidating data capture, scheduling, task management, and follow-ups into a single operational pipeline orchestrated through ClickUp and Zapier.
+DMV Music Alliance is a small nonprofit music organization operating with a remote, cross-functional volunteer team. As the organization grew, volunteer onboarding became increasingly manual, inconsistent, and founder-dependent, creating delays and operational strain.
 
-The proposed system reduced founder bottlenecks, improved visibility into onboarding status, and created a repeatable onboarding experience designed to scale with minimal overhead. While the system was fully designed and documented, full implementation was ultimately paused due to leadership indecision rather than technical constraints.
+I designed a workflow automation–ready onboarding system that centralized data capture, scheduling, task assignment, and progress tracking into a single, scalable workflow. The system leveraged Zapier as the automation layer, with ClickUp serving as the system of record.
 
+Although the system was not ultimately implemented due to leadership decision constraints, the full workflow, automation logic, and system architecture were designed and documented.
+
+## My Role
+
+### Automation & Workflow Consultant
+I was responsible for diagnosing onboarding breakdowns, designing an automation-first workflow, defining system logic, and documenting the solution for stakeholder review.
 
 ## Tools
 The following tools and technologies were used in this project:
