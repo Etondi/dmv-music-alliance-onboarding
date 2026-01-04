@@ -1,4 +1,5 @@
-# DMV Music Alliance — Volunteer Onboarding System
+# Workflow Automation Case Study
+## Volunteer Onboarding System Design — DMV Music Alliance
 
 ## Table of Contents
 
