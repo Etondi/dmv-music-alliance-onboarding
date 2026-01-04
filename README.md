@@ -1,12 +1,11 @@
 # Workflow Automation Case Study
-## Volunteer Onboarding System Design — DMV Music Alliance
+### Volunteer Onboarding System Design — DMV Music Alliance
 
 ## Table of Contents
 
 - [Project Overview](#project-overview)
 - [My Role](#my-role)
 - [Tools](#tools)
-- [Organizational Context](#organizational-context)
 - [Problem Diagnosis](#problem-diagnosis)
 - [Design Goals and Constraints](#design-goals-and-constraints)
 - [Workflow Redesign](#workflow-redesign)
@@ -37,16 +36,6 @@ The following tools and technologies were used in this project:
 - **DMV Website:**	Single intake point for volunteer applications
 - **Calendly:**	Embedded interview scheduling
 - **Gmail / Calendar:**	Consolidated communication and visibility
-
-
-## Organizational Context
-- Volunteer-based nonprofit music organization
-- Small, cross-functional team
-- Remote / hybrid collaboration
-- No dedicated operations or technical owner
-
-Onboarding responsibilities were distributed informally across leadership, with most coordination handled manually by the founder.
-
 
 ## Problem Diagnosis
 ### Observed Issues
@@ -104,6 +93,7 @@ Minimize handoffs by consolidating data capture, scheduling, and communication i
 - Volunteer applies directly through the DMV Music Alliance website
 - Application form captures all required onboarding data in one submission
 - Calendly is embedded at the end of the sign-up flow, allowing immediate interview scheduling
+
 - Form submission triggered a Zapier workflow that created a centralized onboarding record and sent a single consolidated confirmation email
   - The email is sent containing:
     - Volunteer application details
